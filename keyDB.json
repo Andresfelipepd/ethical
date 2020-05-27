@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ethical-hacking-f2c10",
+  "private_key_id": "d2257d3d8b2fc1928a352f8decd537dc8fde6b8a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCt7J1UGgjwtwIk\nHEJ5WlBAJ3y0wP0Wr7qc7DgGHKkW6rokh4HinhRyt2zbsiwLSj6CxUSqCI306VTl\n3frGYDFaMl6K8fdrv33Wu5gC/zwhbccDrh20n2dV1hyYt8/o68XK9+g7bBDA0UGq\nlLr+Af5WJMYR0SDk02uHlae9TdHSf3smce3SHNbazA2fW3pzu83aQnJV9EVBBT+j\n9SOLp6iJaxwJ+iM8tFU/RdqqDsf4IGEYtvvRurAVGgQF3i92WyC+V6FTf1Aq38+V\nBqBHoK0ptTWXmTxcvSjLbeqzj/5hCFCKEw4km+CKYypRpprjAQR1PlgykA+YScFV\ntLhYClCxAgMBAAECggEAE3U5VMNk5KlUz/1pYnI8MDE6vm4o4nTeh9fVnLlwIWQ5\nVwTh/xx4ZS0oPJv+WXUA8Vhoii1S1GeWW/EtsSvp2ZFxClJvv9o4leF+7Dbp30OM\n1FiScjazNOMzZ9KIrCJUipSZoqxAY5IFqrPhB7HpZnHOxweCipcsnIqdrYwbQVVa\nk8CHr9rmjY3VDF3NfG1cpls7vJLspi8pARK23FWI9kGt3aULf+WHIFU2FE+ZVH3+\nYkTFdYei/zKc50tw+Zx1Yw6P8VpI5UxvA9WTZd7XBKaYDCTZ58vJ99nFqnZ/9aIl\nAGu9Zx/YBuS6xGEIMVgFfqv+h7PXb8uM5vSbLpNMEQKBgQDX4yjpowhldETXTO6J\nlMq5ImAhzw62HkLXXj0PoiYyvBBA9vdVa7EXv2FXFUsqzgCMoSlPFoMO7Bq3Vlxc\ndAMgYRq30QZ72tlnaC1A02n7QJZeRDQoK0CaFMf3+dlVC/gQB4gwLCQwoO1pyvri\ndX6WEsnsOwwDuSmXKf+aC3XjbwKBgQDOPXNaez6tKOyECWwti75Ymo8kikub8ins\nzZ6pYijejkZ1+5X3rp63xz99PkFAkMyhezbQi0ZqUFNfVWnLAv30XsanUB2w/iMG\n0lPiDpn2pFnBBiFpOYccNBLU1GIU3f+KTSpv0S3V8axxBRJaErjM13B4IMXba/Cn\nx2CwInR93wKBgEZA/xxg2KejWY+y0mFlUT9EB4KZDhGH8XqCiV5gBww1lRh/Bef/\nXqb6uaOMI2TvmtAo1feNvOKLRPpqmS3g9u9/iiFNXU3K3zq+dROGeROxZf2RNmPo\nB2Lc5mI1JVt+xJ/6w3/hrXlBtWDbFB/D2ojd3mYIpRVFGVq+6RXpKtjzAoGAI5EJ\nYaM7bdVO5H5Tf49H5jPRV7XZ0Cz0+feD0yYwciELGbGnbS1aBcuAsXKZAi92eqqr\nC0/ZduAfYKN0OSRs80Wc8KGqXSmWlMiU2rk16AjzyYvrGyBmooCAdt+hgoO+W/Vu\nyhXC19BzspHzVkFASWMl7DGKrYpx2B1UGUv31vUCgYEAxgD6fI+MEGlll8cDikQ9\nazDNU7r+rOay0Mflb6+bYhyFh7pMPh1zBRy+kvm2ke+LNO4tv6tOehNF1Y9IoyBs\n4k7vLQoDrMFZdWOaBoANnxk+6aLgWGMYMfS9GwHLu58fUZ7n8YYlMslPGt7lUCVS\nuCgRrQNKQTPRjDzHT8KiUQQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-6fvz0@ethical-hacking-f2c10.iam.gserviceaccount.com",
+  "client_id": "102714820196826628794",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-6fvz0%40ethical-hacking-f2c10.iam.gserviceaccount.com"
+}
