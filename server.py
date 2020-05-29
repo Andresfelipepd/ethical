@@ -5,6 +5,8 @@ from flask import Flask, render_template, url_for, copy_current_request_context
 from random import random
 from time import sleep
 from threading import Thread, Event
+import json
+import urllib3
 
 __author__ = 'slynn'
 
@@ -19,19 +21,13 @@ socketio = SocketIO(app, async_mode=None, logger=True, engineio_logger=True)
 thread = Thread()
 thread_stop_event = Event()
 
-def randomNumberGenerator():
-    """
-    Generate a random number every 1 second and emit to a socketio instance (broadcast)
-    Ideally to be run in a separate thread?
-    """
-    #infinite loop of magical random numbers
-    print("Making random numbers")
+def getBTC():
     while not thread_stop_event.isSet():
-        number = round(random()*10, 3)
-        print(number)
-        socketio.emit('newnumber', {'number': number}, namespace='/test')
+        http = urllib3.PoolManager()
+        response = http.request('GET',"https://api.tidex.com/api/3/ticker/eth_btc")
+        values = json.loads(response.data)
+        socketio.emit('newnumber', {'bid': str(values['eth_btc']['buy']),'ask': str(values['eth_btc']['sell']),'vol': str(values['eth_btc']['sell'])}, namespace='/test')
         socketio.sleep(1)
-
 
 @app.route('/')
 def index():
@@ -46,8 +42,7 @@ def test_connect():
 
     #Start the random number generator thread only if the thread has not been started before.
     if not thread.isAlive():
-        print("Starting Thread")
-        thread = socketio.start_background_task(randomNumberGenerator)
+        thread = socketio.start_background_task(getBTC)
 
 @socketio.on('disconnect', namespace='/test')
 def test_disconnect():
